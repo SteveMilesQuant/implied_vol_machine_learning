@@ -20,5 +20,7 @@ I tested neural networks and various boosted decision trees (lightgbm, xgboost, 
 ## Follow-up questions
 1. What other stochastic models should I have considered?
 2. What other machine learning models should I have considered?
-3. How do Heston and SABR produce a volatility surface without option prices?
-4. What's going on with the "implied" risk-free rate (See RiskFreeRate.ipynb)? Was this data fudged or fabricated for this exercise? (Otherwise, I really feel I have something important to learn)
+3. What other machine model parameters should I have adjusted/tuned?
+4. How do Heston and SABR produce a volatility surface without option prices?
+5. What's going on with the "implied" risk-free rate (See RiskFreeRate.ipynb)? Was this data fudged or fabricated for this exercise? (Otherwise, I really feel I have something important to learn)
+
