@@ -3,4 +3,3 @@
 ## Linux command lines
 cd /mnt/c/Users/Steve/implied_vol_machine_learning
 source virt/bin/activate
-python3 experiments.py

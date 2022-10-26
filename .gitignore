@@ -1,5 +1,7 @@
 virt
 options_20220824.csv
+catboost*
+cuda*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
