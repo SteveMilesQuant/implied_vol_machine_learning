@@ -17,10 +17,9 @@ In an effort to demonstrate one path of this exercise, I fit the SABR model to t
 ## Various machine learning models (empirical data)
 I tested neural networks and various boosted decision trees (lightgbm, xgboost, catboost, and gradient boosting). Primarily, I needed machine learning models with continuous (i.e. float) targets, which meant regressions. Linear regressions were immediately eliminated, due to the non-linear nature of this problem. The neural network performed very poorly, but since accuracy is expected to be high, it gave me a benchmark for accuracy when examining the boosted decision trees. Of the boosted decision trees, lightgbm with boosting_type='gbdt' performed the best and had the lowest diffs. More timing tests and sample data would be required to say that with much confidence, but that would be outside the scope of this exercise. For now, based on the limited tests I have done, I would say that lightgbm with boosting_type='gbdt' is best.
 
-## Follow-up questions
-1. What other stochastic models should I have considered?
-2. What other machine learning models should I have considered?
-3. What other machine model parameters should I have adjusted/tuned?
-4. How do Heston and SABR produce a volatility surface without option prices?
-5. What's going on with the "implied" risk-free rate (See RiskFreeRate.ipynb)? Was this data fudged or fabricated for this exercise? (Otherwise, I really feel I have something important to learn)
+## Follow-ups, for myself
+1. Try a state-of-the-art neural network, like the ones they use for images. A volatility surface could be pretty similar, as data, to an image.
+2. Figure out why the risk-free rate and yield rate aren't solving perfectly.
+3. Perhaps try an iterative process to come to the risk-free rates, and then solve for the yields by themselves.
+4. Continue with Heston, now that I can get the risk-free rate and yield.
 
