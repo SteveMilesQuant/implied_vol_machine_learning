@@ -3,6 +3,7 @@ options_20220824.csv
 catboost*
 cuda*
 command_lines.txt
+experiments.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
